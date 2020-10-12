@@ -1,0 +1,160 @@
+*::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mynav{
+    display: flex;
+    flex:2 ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+body{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.bg{
+    background-image: url(./img/pexels-melvin-buezo-2529148.jpg)   !important;
+    background-size: cover;
+    position: relative;
+    height: 150vh;
+    /* border: 10px solid black; */
+}
+
+
+.clicky{
+    background-color: #3ABEE6;
+    color: white;
+}
+
+.bg-content1 h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.myRow{
+    
+    background-color: white;
+    /* width: 100%; */
+    /* border: 2px solid yellow; */
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.each{
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: 2px solid green; */
+}
+
+
+
+.each p{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+
+.searches{
+    border-radius: 10px;
+    background-color: orangered;
+    /* padding-right: 10px; */
+    /* margin-right: 100px; */
+}
+
+.rol1{
+    /* border: 10px solid black; */
+}
+
+
+
+.main-content{
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+    /* margin-bottom: 100px; */
+}
+
+
+
+.small-content{
+    padding-top: 20px;
+}
+
+.small-content h4{
+    font-size: 1rem;
+}
+
+.cancel{
+    background-color: grey;
+    width: 40%;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: white;
+}
+
+
+
+.sec2{
+    background-color: white;
+    display: flex;
+    margin-top: 100px;
+    /* margin-right: 20px; */
+    width: 96%;
+    padding-bottom: 25px;
+    border-radius: 20px;
+
+}
+
+.sec3{
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.thug{
+    /* border: 4px solid #a6c1ee; */
+    border-radius: 10px;
+    /* padding-top: 5px; */
+}
+
+.thug1{
+    /* padding-top: 5px; */
+    border-radius: 10px;
+    /* border: 4px solid #fda085; */
+}
+.thug2{
+    /* padding-top: 5px; */
+    border-radius: 10px;
+    /* border: 4px solid#c2e9fb; */
+}
+.thug3{
+    /* padding-top: 5px; */
+    border-radius: 10px;
+    /* border: 4px solid #fda085; */
+}
+
+
+.thesec span{
+    font-weight: bold;
+}
+
+.thesec p{
+    padding-top: 10px;
+    font-size: 0.8rem ;
+}
+
+.thesec{
+    padding-bottom: 8px;
+    /* border-bottom-style: groove ; */
+}
